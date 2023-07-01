@@ -18,11 +18,11 @@ PURPLE = (180, 0, 255)
 WHITE = (255, 255, 255)
 OFF = (0, 0, 0)
 
-flash_rate = 0.25
+flash_rate = 1.0
 
 while True:
     if mode_button.value is True:
-        pixels.fill(BLUE)
+        pixels.fill(RED)
         pixels.show()
         time.sleep(flash_rate)
         pixels.fill(OFF)
