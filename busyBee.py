@@ -22,7 +22,7 @@ flash_rate = 0.25
 
 while True:
     if mode_button.value is True:
-        pixels.fill(RED)
+        pixels.fill(BLUE)
         pixels.show()
         time.sleep(flash_rate)
         pixels.fill(OFF)
