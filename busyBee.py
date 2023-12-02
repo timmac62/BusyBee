@@ -9,6 +9,8 @@ mode_button = digitalio.DigitalInOut(board.SLIDE_SWITCH)
 mode_button.direction = digitalio.Direction.INPUT
 mode_button.pull = digitalio.Pull.UP
 
+# Update to utilize newer board with Bluetooth
+
 RED = (255, 0, 0)
 YELLOW = (255, 150, 0)
 GREEN = (0, 255, 0)
